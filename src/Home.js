@@ -7,81 +7,88 @@ function Home() {
     <div className="home">
       <img
         className="home-image"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+        src="https://www.galleriacrystalrun.com/wp-content/uploads/sites/10/2022/02/scout-cookies-1-2-color.jpg"
         alt="top"
       />
       <div className="home-row">
         <Product
           id="121314"
-          title="
-          Official Creality Ender 3 Neo 3D Printer"
-          price={239.0}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/61rzBhkXNBL._SL1500_.jpg"
+          title="Raspberry Rally™"
+          price={5}
+          description="Thin, crispy cookies infused with raspberry flavor, dipped in chocolaty coating"
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_23_MarComm_MeetTheCookies_Graphics_LBB-RaspberryRally_255x255_white.jpg"
         />
         <Product
           id="121314"
-          title="
-          BLACK+DECKER Leaf Blower & Leaf Vacuum"
-          price={94.92}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/618vR9O6-BL._AC_SL1500_.jpg"
-        />
-        <Product
-          id="121314"
-          title="
-          Disney Princess Rapunzel and Maximus Fashion Doll and Horse"
-          price={29.23}
-          rating={2}
-          image="https://m.media-amazon.com/images/I/71sV-HtsHPL._AC_SY450_.jpg"
+          title="Adventurefuls™"
+          price={5}
+          description="Indulgent brownie-inspired cookies topped with caramel flavored crème with a hint of sea sal"
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/2022/cookie/adventurefuls/lbb/LBB_Adventurefuls.jpg"
         />
       </div>
       <div className="home-row">
         <Product
           id="121314"
-          title="
-          ROCCBOX by Gozney Portable Outdoor Pizza Oven - Gas Fired"
-          price={499}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/71EIWuLkglL._AC_SX522_.jpg"
+          title="Thin Mints®"
+          price={5}
+          description="Crisp wafers covered in chocolaty coating. Made with natural oil of peppermint."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_thinmints.jpg"
         />
         <Product
           id="121314"
-          title="Christmas Stockings 4 Pack, 19"
-          price={239.0}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/81XzelEG58L._AC_SY355_.jpg"
-        />
-        <Product
-          id="121314"
-          title="Freestanding Punching Bag- Heavy Boxing Bag with Stand"
-          price={189.99}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/712zET2UYRL._AC_SX425_.jpg"
+          title="Samoas®"
+          price={5}
+          description="Crisp cookies, coated in caramel, sprinkled with toasted coconut, and striped with dark chocolaty coating."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_samoa.jpg"
         />
       </div>
       <div className="home-row">
         <Product
           id="121314"
-          title="
-          Indoor Stationary Exercise Bike"
-          price={1245}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/71uspbh7eRL._AC_SX425_.jpg"
+          title="Trefoils®"
+          price={5}
+          description="Delicate-tasting shortbread that is delightfully simple and satisfying."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_trefoil.jpg"
         />
         <Product
           id="121314"
-          title="Vucchini Pepper Salt Grinder Mill"
-          price={22.99}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/61jZ4-aVyNL._AC_SY450_.jpg"
+          title="Tagalongs®"
+          price={5}
+          description="Crispy cookies layered with peanut butter and covered with a chocolaty coating."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_tagalongs.jpg"
+        />
+      </div>
+      <div className="home-row">
+        <Product
+          id="121314"
+          title="Do-si-dos®"
+          price={5}
+          description="Crunchy oatmeal sandwich cookie with creamy peanut butter filling."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_dosido.jpg"
         />
         <Product
           id="121314"
-          title="17 Inch 1080p Portable IPS Gaming Monitor"
-          price={259.99}
-          rating={4}
-          image="https://m.media-amazon.com/images/I/61LFwLG-lVL._AC_SY450_.jpg"
+          title="Lemon-Ups® "
+          price={5}
+          description="Crispy lemon cookies baked with motivational messages.
+          NATURALLY FLAVORED WITH OTHER NATURAL FLAVORS"
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/template/images/cookies/20_MarComm_MeetTheCookies_Council_LemonUps.jpg"
+        />
+      </div>
+      <div className="home-row">
+        <Product
+          id="121314"
+          title="Girl Scout S'mores®"
+          price={5}
+          description="Crunchy graham sandwich cookies with creamy chocolate and marshmallowy filling."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/LBB_GirlScoutSmores.jpg"
+        />
+        <Product
+          id="121314"
+          title="Toffee-tastic®"
+          price={5}
+          description="Rich, buttery cookies packed with golden toffee bits bursting with flavor. Gluten free."
+          image="https://www.gsutah.org/content/dam/girlscouts-shared/images/cookies/lbb/Toffee_Cookie_Round.jpg"
         />
       </div>
     </div>

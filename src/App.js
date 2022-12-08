@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./Header";
+import Nav from "./Nav";
 import Login from "./Login";
 import Home from "./Home";
 import Checkout from "./Checkout";
@@ -10,22 +10,21 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Header />} />
           <Route
             path="/checkout"
             element={
               <>
-                <Header />
+                <Nav />
                 <Checkout />
               </>
             }
           />
           <Route path="/login" element={<Login />} />
           <Route
-            path="/home"
+            path="/"
             element={
               <>
-                <Header />
+                <Nav />
                 <Home />
               </>
             }

@@ -35,6 +35,8 @@ function Home() {
           rating={2}
           image="https://m.media-amazon.com/images/I/71sV-HtsHPL._AC_SY450_.jpg"
         />
+      </div>
+      <div className="home-row">
         <Product
           id="121314"
           title="
@@ -49,6 +51,37 @@ function Home() {
           price={239.0}
           rating={4}
           image="https://m.media-amazon.com/images/I/81XzelEG58L._AC_SY355_.jpg"
+        />
+        <Product
+          id="121314"
+          title="Freestanding Punching Bag- Heavy Boxing Bag with Stand"
+          price={189.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/712zET2UYRL._AC_SX425_.jpg"
+        />
+      </div>
+      <div className="home-row">
+        <Product
+          id="121314"
+          title="
+          Indoor Stationary Exercise Bike"
+          price={1245}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/71uspbh7eRL._AC_SX425_.jpg"
+        />
+        <Product
+          id="121314"
+          title="Vucchini Pepper Salt Grinder Mill"
+          price={22.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/61jZ4-aVyNL._AC_SY450_.jpg"
+        />
+        <Product
+          id="121314"
+          title="17 Inch 1080p Portable IPS Gaming Monitor"
+          price={259.99}
+          rating={4}
+          image="https://m.media-amazon.com/images/I/61LFwLG-lVL._AC_SY450_.jpg"
         />
       </div>
     </div>

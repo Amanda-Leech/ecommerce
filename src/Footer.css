@@ -1,0 +1,9 @@
+.footerArea {
+  background-color: #31a55c;
+  width: 100%;
+  height: 60px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

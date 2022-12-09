@@ -4,19 +4,23 @@
   max-height: 400px;
   min-width: 100px;
   margin: 10px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   z-index: 1;
   width: 100%;
   padding: 20px;
   justify-content: flex-end;
 }
 
-.product-rating {
+.product-review {
   display: flex;
 }
 
 .product-info {
   height: 100px;
+  margin-bottom: 15px;
+}
+
+h2 {
   margin-bottom: 15px;
 }
 
@@ -35,4 +39,6 @@
   background-color: #cd904d;
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
+  padding: 10px;
+  font-weight: 1.8;
 }

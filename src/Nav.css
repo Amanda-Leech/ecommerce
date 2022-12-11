@@ -7,10 +7,6 @@
   z-index: 100;
 }
 
-.nav-left {
-  flex-direction: row;
-}
-
 .nav-logo {
   width: 100px;
   margin: 0 20px;

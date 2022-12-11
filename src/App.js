@@ -6,7 +6,7 @@ import Login from "./Login";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Footer from "./Footer";
-import Contact from "./Contact";
+import ContactForm from "./ContactForm";
 import ProductList from "./ProductList";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -27,7 +27,7 @@ function App() {
             <Footer />
           </Route>
           <Route path="/contact">
-            <Contact />
+            <ContactForm />
             <Footer />
           </Route>
           <Route exact="/products">

@@ -8,8 +8,7 @@ function Footer() {
       <div className="footerArea-links">
         <div className="footerArea-linkArea">
           <strong>
-            <Link to="/privacy">Privacy Policy</Link> | (801) 265-8472 | (800)
-            678-7809 | info@gsutah.org
+            <Link to="/contact">Contact Us</Link>
           </strong>
         </div>
       </div>

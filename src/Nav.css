@@ -7,7 +7,19 @@
   z-index: 100;
 }
 
+.nav-left {
+  flex-direction: row;
+}
+
 .nav-logo {
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.nav-products {
   width: 100px;
   margin: 0 20px;
   margin-top: 15px;

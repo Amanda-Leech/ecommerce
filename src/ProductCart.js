@@ -15,9 +15,9 @@ function ProductCart({ id, title, description, image, price }) {
     <div className="productcart">
       <img className="productcart-image" src={image} alt="" />
       <div className="product-info">
-        <p>{title}</p>
-        <p>{description}</p>
-        <p>${price}</p>
+        <p className="product-titel">{title}</p>
+        <p className="product-description">{description}</p>
+        <p className="product-price">${price}</p>
       </div>
       <button onCLick={removeItem}>Remove from Cart</button>
     </div>

@@ -1,36 +1,37 @@
+import React from "react";
 import "./App.css";
 import Nav from "./Nav";
+import Navlinks from "./Navlinks";
 import Login from "./Login";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Footer from "./Footer";
-import PrivacyPolicy from "./PrivacyPolicy";
+import Contact from "./Contact";
+import ProductList from "./ProductList";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
+      <Nav />
       <div className="App">
         <Switch>
           <Route path="/checkout">
-            <Nav />
             <Checkout />
-            <Footer />
           </Route>
           <Route path="/login">
             <Login />
           </Route>
           <Route exact path="/">
-            <Nav />
             <Home />
             <Footer />
           </Route>
-          <Route path="/login">
-            <Login />
+          <Route path="/contact">
+            <Contact />
+            <Footer />
           </Route>
-          <Route path="/privacy">
-            <Nav />
-            <PrivacyPolicy />
+          <Route exact="/products">
+            <ProductList />
             <Footer />
           </Route>
         </Switch>

@@ -8,14 +8,31 @@ import Checkout from "./Checkout";
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import ProductList from "./ProductList";
+import Men from "./Men";
+import Jewelry from "./Jewelry";
+import Electronics from "./Electronics";
+import Women from "./Women";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <Nav />
+      <Navlinks />
       <div className="App">
         <Switch>
+          <Route path="/men">
+            <Men />
+          </Route>
+          <Route path="/electronics">
+            <Electronics />
+          </Route>
+          <Route path="/women">
+            <Women />
+          </Route>
+          <Route path="/jewelry">
+            <Jewelry />
+          </Route>
           <Route path="/checkout">
             <Checkout />
           </Route>
@@ -30,7 +47,7 @@ function App() {
             <ContactForm />
             <Footer />
           </Route>
-          <Route exact="/products">
+          <Route path="/products">
             <ProductList />
             <Footer />
           </Route>

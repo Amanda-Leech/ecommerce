@@ -1,5 +1,5 @@
 .navlinks {
-  background-color: #232f3e;
+  background-color: rgb(51, 49, 49);
   color: whitesmoke;
   height: 39px;
 }
@@ -9,8 +9,7 @@
   margin: auto;
   padding: 6px;
 }
-
-.navlinks-outer a {
+s .navlinks-outer a {
   color: whitesmoke;
   text-decoration: none;
   cursor: pointer;
@@ -26,4 +25,8 @@
 
 .navlinks-inner {
   margin-top: 3px;
+}
+
+.nav-link {
+  margin-left: 90px;
 }

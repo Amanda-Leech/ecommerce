@@ -20,6 +20,7 @@ function ProductCard(props) {
   return (
     <div className="product">
       <div className="product-info">
+        <div>{props.product.category}</div>
         <h1>{props.product.title}</h1>
         <div className="product-review">
           <p>{props.product.description}</p>

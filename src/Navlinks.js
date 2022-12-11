@@ -7,12 +7,18 @@ function Navlinks() {
     <div className="navlinks">
       <div className="navlinks-outer">
         <div className="navlinks-inner">
-          <Link to="/products" className="nav-link">
-            Products
+          <Link to="/men" className="nav-link">
+            men's clothing
           </Link>
-          <Link>Products</Link>
-          <Link>Products</Link>
-          <Link>Products</Link>
+          <Link to="/jewelry" className="nav-link">
+            jewelery
+          </Link>
+          <Link to="/electronics" className="nav-link">
+            electronics
+          </Link>
+          <Link to="/women" className="nav-link">
+            women's clothing
+          </Link>
         </div>
       </div>
     </div>

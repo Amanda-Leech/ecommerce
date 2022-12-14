@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import "./Nav.scss";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import { StateProvider } from "./StateProvider";
-import reducer, { initialState } from "./reducer";
+import "./components/Nav.scss";
+import App from "./helper/App";
+import reportWebVitals from "./helper/reportWebVitals";
+import { StateProvider } from "./helper/StateProvider";
+import reducer, { initialState } from "./helper/reducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

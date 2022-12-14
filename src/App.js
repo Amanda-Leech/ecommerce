@@ -1,5 +1,5 @@
-import React from "react";
-import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 import Nav from "./Nav";
 import Navlinks from "./Navlinks";
 import Login from "./Login";
@@ -12,17 +12,25 @@ import Men from "./Men";
 import Jewelry from "./Jewelry";
 import Electronics from "./Electronics";
 import Women from "./Women";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Item from "./Item";
+import About from "./About";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav />
-      <Navlinks />
-      <div className="App">
+    <div className="App">
+      <BrowserRouter>
+        <Nav />
+        <Navlinks />
         <Switch>
+          <Route exact path="/">
+            <Home />
+            <Footer />
+          </Route>
           <Route path="/men">
             <Men />
+          </Route>
+          <Route path="/item/:id">
+            <Item />
           </Route>
           <Route path="/electronics">
             <Electronics />
@@ -39,10 +47,6 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Route exact path="/">
-            <Home />
-            <Footer />
-          </Route>
           <Route path="/contact">
             <ContactForm />
             <Footer />
@@ -51,9 +55,13 @@ function App() {
             <ProductList />
             <Footer />
           </Route>
+          <Route path="/about">
+            <About />
+            <Footer />
+          </Route>
         </Switch>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

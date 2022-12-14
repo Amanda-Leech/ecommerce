@@ -1,0 +1,37 @@
+$color_1: whitesmoke;
+$background-color_1: rgb(51, 49, 49);
+
+.navlinks {
+  background-color: $background-color_1;
+  color: $color_1;
+  height: 39px;
+}
+.navlinks-outer {
+  width: 70%;
+  margin: auto;
+  padding: 6px;
+  a {
+    &:hover {
+      border: 1px solid #fff;
+      border-radius: 4px;
+    }
+  }
+}
+s {
+  .navlinks-outer {
+    a {
+      color: $color_1;
+      text-decoration: none;
+      cursor: pointer;
+      padding: 4px;
+      margin-top: 10px;
+      border: 1px solid #232f3e;
+    }
+  }
+}
+.navlinks-inner {
+  margin-top: 3px;
+}
+.nav-link {
+  margin-left: 90px;
+}

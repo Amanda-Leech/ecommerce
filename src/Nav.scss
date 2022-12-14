@@ -1,12 +1,15 @@
+$color_1: white;
+$background-color_1: black;
+$background-color_2: #cd904d;
+
 .nav {
-  background-color: black;
+  background-color: $background-color_1;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 100;
 }
-
 .nav-logo {
   width: 100px;
   margin: 0 20px;
@@ -14,7 +17,6 @@
   margin-bottom: 10px;
   object-fit: contain;
 }
-
 .nav-products {
   width: 100px;
   margin: 0 20px;
@@ -22,57 +24,48 @@
   margin-bottom: 10px;
   object-fit: contain;
 }
-
 .nav-search {
   display: flex;
   flex: 1;
 }
-
 .nav-searchInput {
   height: 12px;
   padding: 10px;
   border: none;
   width: 100%;
 }
-
 .nav-searchIcon {
   padding: 5px;
   height: 22px !important;
-  background-color: #cd904d;
+  background-color: $background-color_2;
 }
 .nav-nav {
   display: flex;
   justify-content: space-evenly;
 }
-
 .nav-option {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 a {
-  color: white;
+  color: $color_1;
   text-decoration: none;
 }
-
 .nav-optionLineOne {
   font-size: 10px;
 }
-
 .nav-optionLineTwo {
   font-size: 13px;
   font-weight: 800;
 }
-
 .nav-optionBasket {
   display: flex;
   align-items: center;
   margin-right: 10px;
   margin-right: 10px;
 }
-
 .nav-productCount {
   margin-left: 10px;
   margin-right: 10px;

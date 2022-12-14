@@ -1,0 +1,14 @@
+$color_1: whitesmoke;
+$background-color_1: black;
+
+.footerArea {
+  background-color: $background-color_1;
+  width: 100%;
+  height: 60px;
+  color: $color_1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import "./Nav.css";
+import "./index.scss";
+import "./Nav.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./StateProvider";

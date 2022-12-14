@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductCard.css";
+import "./ProductCard.scss";
 import { useStateValue } from "./StateProvider";
 
 function ProductCard(props) {
@@ -22,9 +22,6 @@ function ProductCard(props) {
       <div className="product-info">
         <div>{props.product.category}</div>
         <h1>{props.product.title}</h1>
-        <div className="product-review">
-          <p>{props.product.description}</p>
-        </div>
       </div>
       <img src={props.product.image} alt="" />
       <h2 className="product-price">

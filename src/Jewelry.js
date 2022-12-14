@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ProductCard from "./ProductCard";
-import "./ProductList.css";
+import "./ProductList.scss";
 
-function ProductList() {
+function Jewelry() {
   const url = "https://fakestoreapi.com/products/category/jewelery";
   const [products, setProducts] = useState({
     loading: false,
@@ -55,4 +55,4 @@ function ProductList() {
   return <div>{content}</div>;
 }
 
-export default ProductList;
+export default Jewelry;

@@ -1,15 +1,23 @@
-import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
   faShoppingBasket,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link, NavLink } from "react-router-dom";
+import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import "./Nav.scss";
 
 function Nav() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
+
+  const logoutUser = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
+
   return (
     <nav className="nav">
       <div className="nav-left">
@@ -30,10 +38,13 @@ function Nav() {
             <span className="nav-optionLineTwo"> Products</span>
           </div>
         </Link>
-        <Link to="/login" className="nav-link">
-          <div className="nav-option">
-            <span className="nav-optionLineOne"> Hello, User</span>
-            <span className="nav-optionLineTwo"> Sign</span>
+        <Link to={!user && "/login"} className="nav-link">
+          <div onCLick={logoutUser} className="nav-option">
+            <span className="nav-optionLineOne"> Hello, {user?.email}</span>
+            <span className="nav-optionLineTwo">
+              {" "}
+              {user ? "Signout" : "sign in"}{" "}
+            </span>
           </div>
         </Link>
         <Link to="/" className="nav-link">

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ProductCard from "./ProductCard";
-import "./ProductList.css";
+import "./ProductList.scss";
 
 function ProductList() {
   const url = "https://fakestoreapi.com/products";

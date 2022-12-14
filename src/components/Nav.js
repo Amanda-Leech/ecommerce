@@ -5,8 +5,8 @@ import {
   faShoppingBasket,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
-import { auth } from "./firebase";
-import { useStateValue } from "./StateProvider";
+import { auth } from "../helper/firebase";
+import { useStateValue } from "../helper/StateProvider";
 import "./Nav.scss";
 
 function Nav() {

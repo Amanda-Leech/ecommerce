@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProductCard.scss";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function ProductCard(props) {
   const [{ basket }, dispatch] = useStateValue();

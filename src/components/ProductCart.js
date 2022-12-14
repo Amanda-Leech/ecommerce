@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProductCart.scss";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function ProductCart({ id, title, image, price }) {
   const [{ basket }, dispatch] = useStateValue();

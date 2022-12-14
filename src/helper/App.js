@@ -1,19 +1,19 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Nav from "./Nav";
-import Navlinks from "./Navlinks";
-import Login from "./Login";
-import Home from "./Home";
-import Checkout from "./Checkout";
-import Footer from "./Footer";
-import ContactForm from "./ContactForm";
-import ProductList from "./ProductList";
-import Men from "./Men";
-import Jewelry from "./Jewelry";
-import Electronics from "./Electronics";
-import Women from "./Women";
-import Item from "./Item";
-import About from "./About";
+import Nav from "../components/Nav";
+import Navlinks from "../components/Navlinks";
+import Login from "../components/Login";
+import Home from "../components/Home";
+import Checkout from "../components/Checkout";
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
+import ProductList from "../components/ProductList";
+import Men from "../components/Men";
+import Jewelry from "../components/Jewelry";
+import Electronics from "../components/Electronics";
+import Women from "../components/Women";
+import Item from "../components/Item";
+import About from "../components/About";
 
 function App() {
   return (

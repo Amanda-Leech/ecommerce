@@ -1,6 +1,6 @@
 import React from "react";
 import CurrencyFormat from "react-currency-format";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 import "./Subtotal.scss";
 
 function Subtotal() {

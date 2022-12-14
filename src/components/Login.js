@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.scss";
 import { Link, useHistory } from "react-router-dom";
-import { auth } from "./firebase";
+import { auth } from "../helper/firebase";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
